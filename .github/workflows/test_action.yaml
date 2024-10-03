@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: ./.github/actions/greating/action.yaml
+        uses: ./.github/actions/greating
         with:
           who-to-greet: 'Ziba'
