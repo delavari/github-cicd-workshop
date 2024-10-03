@@ -1,6 +1,4 @@
-| Build | Tests | Coverage |
-| :---: | :----: | :------: | 
-| [![Build Status](badge)](https://img.shields.io/badge/tests-unknown-lightgrey) | [![Tests](badge)](https://img.shields.io/badge/tests-passing-green)| [![Coverage](badge)](https://img.shields.io/badge/tests-failing-red)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 # Github Actions - Python CI Workflow Exercise
 
 Create a GitHub Actions workflow that is triggered on pull requests to the master branch. This workflow should run unit tests and lint Python code.
