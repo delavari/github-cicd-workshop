@@ -14,9 +14,13 @@ jobs:
       with:
         python-version: '3.12'
 
-    - run: pip install pytest
-    - run: pytest exercise_2/test_bad_code.py
-    - run: pytest exercise_2
+    - name: install dependencies
+      run: pip install pytest
+    
+    - name: run tests
+      run: |
+        pytest exercise_2/test_bad_code.py
+        pytest exercise_2
 
 
   lint:
